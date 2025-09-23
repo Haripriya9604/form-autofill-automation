@@ -6,7 +6,7 @@ from pathlib import Path
 import pandas as pd
 
 LOG = "submissions_log.csv"
-SRC = "alumni_dataset_2017_2021_cleaned_human_fixed.csv"
+SRC = "sample_input.csv"
 REPORT = "verification_report.txt"
 FAILED_ROWS = "failed_rows.csv"
 
@@ -64,13 +64,13 @@ def main():
     # verify payload values match source values (for mapped entry.* keys)
     # Build a small mapping of entry.* -> friendly name based on FIELD_MAPPING used earlier
     field_map = {
-        "entry.24240767":"Name","entry.283251996":"Department","entry.296483464":"Stream",
-        "entry.494363075":"Year of Graduation","entry.756242332":"Current Job Title and Employer",
-        "entry.1536199188":"Years Working","entry.816875948":"University helped","entry.202739707":"Areas to improve",
-        "entry.1739490987":"Education prepared me well","entry.143592356":"Progressed in career",
-        "entry.1333872725":"Apply engineering principles","entry.732524708":"Solve complex problems",
-        "entry.910737851":"Consider broader societal issues","entry.288733793":"Stay current with technologies",
-        "entry.1611035480":"Responsive to global issues","emailAddress":"Email"
+        "entry.xxxxxxx":"Name","entry.xxxxxxx":"Department","entry.xxxxxxx":"Stream",
+        "entry.xxxxxxx":"Year of Graduation","entry.xxxxxxx":"Current Job Title and Employer",
+        "entry.xxxxxxx":"Years Working","entry.xxxxxxx":"University helped","entry.xxxxxxx":"Areas to improve",
+        "entry.xxxxxxx":"Education prepared me well","entry.xxxxxxx":"Progressed in career",
+        "entry.xxxxxxx":"Apply engineering principles","entry.xxxxxxx":"Solve complex problems",
+        "entry.xxxxxxx":"Consider broader societal issues","entry.xxxxxxx":"Stay current with technologies",
+        "entry.xxxxxxx":"Responsive to global issues","emailAddress":"Email"
     }
 
     mismatches = []
@@ -113,3 +113,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
