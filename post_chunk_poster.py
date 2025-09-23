@@ -2,7 +2,7 @@
 import sys, os, time, random, csv, requests, pandas as pd
 
 # === UPDATE FORM_URL if form changes ===
-FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSe4EdZ51rEN7tShoRf5wcLijsZw0XkrSWSLLQ53-ksso4MGXg/formResponse"
+FORM_URL = "https://docs.google.com/forms/d/e/<PUBLIC ID>/formResponse"
 
 def main():
     if len(sys.argv) < 2:
@@ -56,3 +56,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
