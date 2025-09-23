@@ -1,7 +1,7 @@
 # retry_failed.py
 import sys, os, time, random, csv, requests, pandas as pd
 
-FORM_URL = "https://docs.google.com/forms/d/e/1ZwQ2A7eJG-CkA6YVQohFmcAVU_QuX9oCS5-vmOwBRXQ/formResponse"
+FORM_URL = "https://docs.google.com/forms/d/e/<PUBLIC ID>/formResponse"
 
 def main():
     if len(sys.argv) < 2:
@@ -55,3 +55,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
