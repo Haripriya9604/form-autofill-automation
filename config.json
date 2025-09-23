@@ -1,0 +1,21 @@
+{
+  "form_url": "https://docs.google.com/forms/d/e/YOUR_FORM_ID/formResponse",
+  "mapping": {
+    "Name": "entry.YOUR_ENTRY_ID_HERE",
+    "Department": "entry.YOUR_ENTRY_ID_HERE",
+    "Stream": "entry.YOUR_ENTRY_ID_HERE",
+    "Year of Graduation": "entry.YOUR_ENTRY_ID_HERE",
+    "Current Job Title and Employer": "entry.YOUR_ENTRY_ID_HERE",
+    "Years Working": "entry.YOUR_ENTRY_ID_HERE",
+    "University helped": "entry.YOUR_ENTRY_ID_HERE",
+    "Areas to improve": "entry.YOUR_ENTRY_ID_HERE",
+    "Education prepared me well": "entry.YOUR_ENTRY_ID_HERE",
+    "Progressed in career": "entry.YOUR_ENTRY_ID_HERE",
+    "Apply engineering principles": "entry.YOUR_ENTRY_ID_HERE",
+    "Solve complex problems": "entry.YOUR_ENTRY_ID_HERE",
+    "Consider broader societal issues": "entry.YOUR_ENTRY_ID_HERE",
+    "Stay current with technologies": "entry.YOUR_ENTRY_ID_HERE",
+    "Responsive to global issues": "entry.YOUR_ENTRY_ID_HERE",
+    "Email": "emailAddress"
+  }
+}

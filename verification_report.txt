@@ -1,0 +1,9 @@
+Local source rows: 34
+Total log entries: 37
+Successful submissions recorded: 37
+Failed submissions recorded: 0
+Duplicate emails in source CSV: 0 -> []
+Rows missing from successful submissions (by index): []
+Payload vs source mismatches count: 0
+
+Detailed mismatches (first 200):
