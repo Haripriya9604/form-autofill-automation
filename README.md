@@ -13,10 +13,6 @@ It was applied to alumni feedback forms (300+ entries), but works for **any form
 - ✅ Logs every submission (status codes + payloads)
 
 ---
-
-## 📊 Example Workflow
-
-### 1. Prepare your dataset
 Start with a **human-readable CSV** (`sample_input.csv`):
 
 ```csv
@@ -35,3 +31,22 @@ Bob Sample,CSE,Computer Science and Engineering,2022,Example Inc,3,Agree,More in
 ---
 
 ## 📂 Project Structure
+
+┣ 📜 auto_submit_gform.py # Main script for submissions
+┣ 📜 fix_clean_and_emails.py # Clean dataset & ensure unique emails
+┣ 📜 rename_entry_to_human.py # Reverse mapping (entry → human headers)
+┣ 📜 map_and_chunk_alumini.py # Map dataset & split into chunks
+┣ 📜 post_chunk_poster.py # Submit chunked CSV files
+┣ 📜 fetch_form_info.py # Fetch Google Form info
+┣ 📂 input/ # Place cleaned datasets here
+┣ 📂 mapped/ # Mapped files + chunked CSVs
+┣ 📂 logs/ # Submission logs
+┣ 📜 requirements.txt # Python dependencies
+┗ 📜 README.md # Project documentation
+
+This project automates Google Form submissions using data from CSV/Excel files.
+It was designed for collecting alumni feedback but can be adapted to any form.
+
+Why this matters
+Organizations spend countless hours copying data manually into forms.
+This automation saves time, reduces errors, and ensures consistent data collection.
