@@ -27,21 +27,21 @@ random.seed(42)
 
 # ---- mapping human -> entry IDs (same mapping we used earlier) ----
 FIELD_TO_ENTRY = {
-    "Name": "entry.24240767",
-    "Department": "entry.283251996",
-    "Stream": "entry.296483464",
-    "Year of Graduation": "entry.494363075",
-    "Current Job Title and Employer": "entry.756242332",
-    "Years Working": "entry.1536199188",
-    "University helped": "entry.816875948",
-    "Areas to improve": "entry.202739707",
-    "Education prepared me well": "entry.1739490987",
-    "Progressed in career": "entry.143592356",
-    "Apply engineering principles": "entry.1333872725",
-    "Solve complex problems": "entry.732524708",
-    "Consider broader societal issues": "entry.910737851",
-    "Stay current with technologies": "entry.288733793",
-    "Responsive to global issues": "entry.1611035480",
+    "Name": "entry.xxxxxxx",
+    "Department": "entry.xxxxxxx",
+    "Stream": "entry.xxxxxxx",
+    "Year of Graduation": "entry.xxxxxxx",
+    "Current Job Title and Employer": "entry.xxxxxxx",
+    "Years Working": "entry.xxxxxxx",
+    "University helped": "entry.xxxxxxx",
+    "Areas to improve": "entry.xxxxxxx",
+    "Education prepared me well": "entry.xxxxxxx",
+    "Progressed in career": "entry.xxxxxxx",
+    "Apply engineering principles": "entry.xxxxxxx",
+    "Solve complex problems": "entry.xxxxxxx",
+    "Consider broader societal issues": "entry.xxxxxxx",
+    "Stay current with technologies": "entry.xxxxxxx",
+    "Responsive to global issues": "entry.xxxxxxx",
     "Email": "emailAddress"
 }
 
@@ -261,3 +261,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
